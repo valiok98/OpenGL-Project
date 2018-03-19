@@ -94,8 +94,8 @@ int main() {
 
 	glm::mat4 matrixSource[] = {
 
-		projection * glm::translate(glm::mat4(), glm::vec3(-1.0f, 0.0f, -3.0f)) * glm::rotate(glm::mat4(), 36.0f, glm::vec3(1.0f, 0.0f, 0.0f)),
-		projection * glm::translate(glm::mat4(), glm::vec3(1.0f, 0.0f, -3.75f)) * glm::rotate(glm::mat4(), 126.0f, glm::vec3(0.0f,1.0f,0.0f))
+		projection * glm::translate(glm::mat4(), glm::vec3(-1.0f, 0.0f, -1.6f)) * glm::rotate(glm::mat4(), 36.0f, glm::vec3(1.0f, 0.0f, 0.0f)),
+		projection * glm::translate(glm::mat4(), glm::vec3(1.0f, 0.0f, -1.75f)) * glm::rotate(glm::mat4(), 126.0f, glm::vec3(0.0f,1.0f,0.0f))
 	};
 
 
@@ -115,12 +115,6 @@ int main() {
 	glVertexAttribDivisor(3, 1);
 	glVertexAttribDivisor(4, 1);
 	glVertexAttribDivisor(5, 1);
-
-
-
-
-
-
 
 
 	glClearColor(0.1, 0.1, 0.1, 1.0);
